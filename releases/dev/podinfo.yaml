@@ -17,7 +17,7 @@ spec:
     image:
       repository: soufianem370/podinfo
       tag: dev-5hfdy7mc
-    replicaCount: 1
+    replicaCount: 2
     hpa:
       enabled: false
     service:
