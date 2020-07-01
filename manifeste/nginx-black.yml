@@ -6,7 +6,7 @@ metadata:
   name: nginx-black
   namespace: obs
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       run: nginx-black
